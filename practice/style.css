@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: #988368;
+}
+
+/* .head1{
+    font-size: 60px;
+    text-align: center;
+    text-decoration: underline;
+    font-family: "Grey Qo", cursive;
+}
+
+.head2{
+    font-size: 60px;
+    font-family:"Sankofa Display", sans-serif;
+    font-weight: 700;
+
+} */
+
+/* .color{
+    font-family: "Grey Qo", cursive;
+    font-size: 60px;
+    color: red;
+    color: #cf469d;
+    color: rgb(76, 76, 205);
+    color: rgba(10, 255, 10, 1);
+    opacity: 1;
+}
+
+.display{
+    font-size: 50px;
+    visibility: hidden;
+    display: none; 
+} */
+
+
+.box1{
+    margin-top: 10%;
+    background-color: #ac9090;
+    width: 15%;
+    /* border: 3px solid black; */
+    border-radius: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px ;
+    border-top: 4px solid green;
+    border-bottom: 4px solid green;
+    border-left: 4px solid #d5ea1c;
+    border-right: 4px solid #d5ea1c;
+
+    /* padding: 10px; */
+    /* padding: 10px 20px; */
+    padding: 10px 20px 30px 40px;
+
+    /* margin: 10px; */
+    /* margin: 10px 20px; */
+    margin: 10px 20px 30px 40px;
+
+}
+
+
+
+.box2{
+    height: 200px;
+    width: 200px;
+    background-color: crimson;
+    border-radius: 50%;
+    border: 4px solid ;
+    border-color: green blue orange black;
+    margin: 20px;
+    animation: rotate 2s infinite;
+}
+
+@keyframes rotate{
+    100%{
+        rotate: 360deg;
+    }
+}
+
+input{
+    border: none;
+    outline: 2px solid red;
+}

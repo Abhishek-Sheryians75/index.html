@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+/* h3{
+    color: aqua;
+    font-size: 60px;
+} */
+
+/* #header{
+    color: red;
+    background-color: blue;
+
+} */
+
+.jobhi{
+    color: yellow;
+    background-color: black;
+    font-size: 30px;
+}
+
+.kyahai{
+    color: blue;
+    background-color: #bc2b3a;
+    text-align: center;
+    font-style: italic;
+}
+
+div{
+    margin-top: 30px;
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+
+#nav{
+    height: 30%;
+    width: 30%;
+    background-color: blue;
+}

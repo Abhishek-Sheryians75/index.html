@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: work sans;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    /* background: linear-gradient(to right, #43c6ac, #191654); */
+    background-image: url(https://media.istockphoto.com/id/1032938270/photo/india-flag-made-of-metallic-brush-paint-on-grunge-dark-wall.jpg?s=612x612&w=0&k=20&c=pUY21Ut3NzLpY1gf13fh3aBQsbC2HFffPCtxGHyfjPo=);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.card{
+    height: 430px;
+    width: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    background:linear-gradient(to right, #3f7268, #2c286c);
+    border-radius: 10px;
+    border: 3px solid  white;
+    border-top-color: #f74403;
+    border-bottom-color: #53a432;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.card > img{
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    /* overflow: hidden; */
+}
+
+.card > h1{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #f12b1d;
+}
+
+.card > p{
+    margin-top: 15px;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.card > button{
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #36c536;
+    color: white;
+}

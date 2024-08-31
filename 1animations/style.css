@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: #981e5d;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* animation: name duration timing-function delay iteration-count direction; */
+    animation: move 3s linear 1s infinite both;
+}
+
+
+/* @keyframes move {
+    from{
+        top: 0;
+        left: 10%;
+    }
+    to{
+        left: 50%;
+    }
+} */
+
+@keyframes move{
+    0%{
+        top: 0;
+        left: 0;
+    }
+    25%{
+        left: 50%;
+        top: 0;
+    }
+    50%{
+        top: 50%;
+        left: 50%;
+    }
+    75%{
+        left: 0;
+        top: 50%;
+    }
+    100%{
+        top: 0;
+        left: 0;
+    }
+}
+
+/* .box::first-letter{
+    font-size: 40px;
+} */
+
+/* .box::first-line{
+    color: white;
+}
+
+.box::before{
+    content: "//";
+}
+.box::after{
+    content: "//";
+} */

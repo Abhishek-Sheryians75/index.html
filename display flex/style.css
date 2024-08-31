@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#container{
+    height: 100%;
+    width: 100%;
+    background-color: #dad7d7;
+}
+
+.nav{
+    height: 80px;
+    background-color: #d2cfcf;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    letter-spacing: -1px;
+    cursor: pointer;
+}
+
+.nav h2 sup{
+    font-size: 15px;
+    font-weight: 800;
+    display: inline-block;
+    margin-left: 4px;
+}
+
+.nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav ul li{
+    list-style: none;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    font-size: 28px;
+    border-bottom: 1px solid transparent;
+    padding: 5px;
+    transition: all 0.25s linear;
+}
+
+.nav ul li a:hover{
+    border-bottom: 1px solid black;
+    transform: scale();
+}
+
+.nav h3{
+    font-size: 25px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+}
+
+.center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 6%;
+    padding: 35px;
+}
+
+
+.center-left{
+    width: 19%;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: -1px;
+    word-spacing: 1px;
+    color: #000000ce;
+}
+
+.btn{
+    width: 80%;
+    padding-bottom: 5px;
+    border-bottom: 1px solid;
+    cursor: pointer;
+}
+
+.center-left button{
+    border: none;
+    padding: 5px 0px;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000ce;
+    margin-right: 30%;
+    cursor: pointer;
+}
+
+.center-right{
+    width: 55%;
+    font-size: 40px;
+    font: 500;
+}
+
+.add{
+    font: 900 500px "New Amsterdam";
+}

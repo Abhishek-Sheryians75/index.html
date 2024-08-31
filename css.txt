@@ -1,0 +1,57 @@
+article/section/main/div -> top level container
+
+
+
+
+
+
+
+
+
+inline style = style="property:value;  property:value;....."
+
+id define = we cannot user multiple id for the same tag or same id for the multiple elements
+
+
+
+calss define = we can user same class for multiple tags and multiple classes for the same tag
+
+
+2nd day
+
+measurements  static(px) responsive(%)
+
+static(px) -> independent from parent width/height
+
+responsive(%)  -> totally depends on the width/height of parent
+
+
+block element -> width 100% leta hai ---- ye width or height support karte hai
+
+inline element -> jitna content ka width rehta h utna hi jagh leta hai ---- ye width or height support nahi karte hai
+
+3rd day
+
+sans-serif --> jisme edge nhi hoti hai 
+serif --> jis text me edges nhi hoti 
+
+4th day
+
+display -->  none 
+
+visibility --> hidden
+
+opacity --> 0, 1
+
+
+12.8 aug
+
+background attched fixed
+
+
+transition 0.25
+
+transform: scale(1.2)
+
+overflow
+

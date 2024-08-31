@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.box1{
+    height: 200px;
+    width: 200px;
+    background-color: #981e5f;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: move 2s linear 1s infinite both;
+}
+.box2{
+    height: 200px;
+    width: 200px;
+    background-color: #981e5f;
+    position: absolute;
+    top: 0;
+    left: 87%;
+    animation: move 2s linear 1s infinite both;
+}
+
+.gola{
+    height: 150px;
+    width: 150px;
+    background-color: #981e5f;
+    position: relative;
+    left: 45%;
+    border-radius: 50%;
+    animation: move 2s linear 1s infinite both;
+}
+
+@keyframes move {
+    0%{
+        top: 0;
+        left: 50%;
+    }
+    25%{
+        top: 50%;
+        right: 50%;
+    }
+    
+}

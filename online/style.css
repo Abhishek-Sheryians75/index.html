@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    
+}
+
+.center{
+    height: 90%;
+    width: 70%;
+    padding: 0 60px;
+    position: relative;
+}
+
+.header{
+    width: 100%;
+    height: 80px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    padding-right: 150px;
+}
+
+.nav1{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav1 h3{
+    font-size: 20px;
+    font-weight: 400;
+    margin-right: 25px;
+}
+
+.nav1 h5{
+    font-size: 12px;
+    font-weight: 600;
+    transition: 0.8;
+}
+
+.nav1 h5:hover{
+    transform: scale(1.2);
+    color: red;
+}
+
+.nav2{
+    background-color: #f8f4f4;
+    padding: 8px;
+    border-radius: 50px;
+   
+}
+
+.nav2 > button{
+    padding: 5px 15px;
+    font-size: 12px;
+    border-radius: 50px;
+    border: none;
+    transition: 0.6s;
+}
+
+.sign:hover{
+    background-color: black;
+    color: white;
+    transform: scale(1.2);
+}
+
+.left{
+    height: 80%;
+    width: 55%;
+    background: url(https://media.istockphoto.com/id/1471404105/photo/reusable-water-bottle-on-a-concrete-background.jpg?s=612x612&w=0&k=20&c=GcRgoHlGjHYosZxhXajDS1LepBhlPqx6HlXs5Wslh6U=);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 40px;
+    padding: 40px;
+}
+
+.left > h1{
+    font-size: 60px;
+    color: white;
+    font-weight: 700;
+}
+
+
+.right-top{
+    height: 40%;
+    width: 25%;
+    background: url(https://media.istockphoto.com/id/1208711662/photo/3d-silver-sphere-abstract-background-gradient-and-reflection-for-banner-wallpaper-pattern-and.webp?b=1&s=612x612&w=0&k=20&c=SzAMjOot7oYlTJpKZ9AS0aMgAnkt0YAuIssjHyTAEzk=);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 20%;
+    top: 13%;
+    border-radius: 40px;
+    
+}
+
+.right-bottom{
+    height: 37%;
+    width: 25%;
+    background-color: #52e752;
+    position: absolute;
+    bottom: 8%;
+    right: 20%;
+    border-radius: 40px;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.top p{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+}
+
+.top i{
+    font-size: 22px;    
+}
+
+.right-bottom h1{
+    text-align: center;
+    position: absolute;
+    bottom: 10%;
+    right: 35%;
+    font-weight: 500;
+}
+
+
+.right-top{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.right-top h1{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 28px;
+}
+
+.right-top  i{
+    font-size: 25px;
+    font-weight: 200;
+}
